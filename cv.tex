@@ -25,8 +25,8 @@
 
 % personal data
 \name{Andreas}{Frisch}
-\title{Age 33, Danish}                               % optional, remove / comment the line if not wanted
-\address{Hovgaardsgade 7, 4tv}{2100 København Ø}{Denmark}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\title{Age 37, Danish}                               % optional, remove / comment the line if not wanted
+\address{Blegdamsvej 36, 2tv}{2200 København N}{Denmark}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
 \phone[mobile]{+45~30206192}                   % optional, , remove / comment the line if not wanted
 \email{andreas.frisch@gmail.com}                               %  remove / comment the line if not wanted
 
@@ -34,12 +34,21 @@
 \makecvtitle
 
 \section{Knowledge Areas}
-\cvitem{Programming}{Python, Scala, Haskell, AngularJS, Swift, SQL}
-\cvitem{Development}{Git, Docker, Continuous Integration, AWS, Agile, Waterfall, Testing}
+\cvitem{Programming}{Python, Scala, Haskell, AngularJS, Swift, SQL, React}
+\cvitem{Development}{Git, Docker, Continuous Integration, AWS, Agile, Waterfall, Testing, Kubernetes, Kafka}
 \cvitem{Other}{Latex, Quality and Infomation Security Management Systems, GAMP 5, Audit Readiness}
 
 \section{Work Experience}
-\cventry{2020--}{Security and Software Lead}{Studies\&Me}{Copenhagen}{}{
+\cventry{2023--}{Cloud Engineer}{DFDS A/S}{Copenhagen}{}{
+	The Cloud Engineering Team at DFDS develops and maintains the kubernetes and kafka cluster(s) used for all cloud based production systems in DFDS.
+	Access to these services and related tooling happens through a Developer Portal which is also developed and maintained by the Cloud Engineering Team.
+	\newline \textit{Main learnings: Developer Platform Development, Stakeholder Management, React}
+}
+\cventry{2021-2023}{Senior Backend Developer}{SiteImprove}{Copenhagen}{}{
+	As part of the inhouse Crawler Team, I partook in automatic web page scraping and subsequent data formatting. My primary accomplishment in my time at SiteImprove was the migration of a legacy Perl code base into GoLang. Tasks often included maintenance and monitoring of kubernetes. The Crawler Team required a strong focus on runtime and data load optimization in order to live up to our promises to the customers.
+	\newline \textit{Main learnings: AWS Cloud, Kubernetes, Kafka, Legacy Code Migration, }
+}
+\cventry{2020-2021}{Security and Software Lead}{Studies\&Me}{Copenhagen}{}{
 	Overseeing development of both frontends and backends in Studies\&Me with responsibility for delivering software on time, assisting in planning software deliveries, helping build the Studies\&Me Quality and Information Security Management System, and managing day-to-day software security and operations. During this I still assisted in the development of our backend projects and maintained our supporting script suite.
 	\newline \textit{Main learnings: People Management, Project Management, Politics, Quality Systems, Information Security, Audits.}
 }
@@ -68,9 +77,11 @@
 }
 
 \section{Extracurricular Activities}
-\cventry{2018--}{App Developer}{FreezerButler}{}{}{
-	Primary frontend developer for FreezerButler developing an app to help prevent food waste by allowing you to track food you have in your fridge and suggest new recipes using your leftovers.
-	\newline \textit{Main learnings: Swift, App development processes, React Native}
+\cventry{2018--}{App Developer}{GrocerEase}{}{\textit{App Development} and \textit{React Native}}{
+	Primary frontend developer for GrocerEase developing an app to help prevent food waste by allowing you to track food you have in your fridge and suggest new recipes using your leftovers.
+}
+\cventry{2017--}{Board Game Guru}{Bastard Cafe}{}{}{
+	Volunteering to help people of all ages explore and enjoy board games.
 }
 \cventry{2017--2018}{Teacher}{Coding Pirates}{}{}{
 	Volunteering to teach kids aged 8 to 15 how to code. This was achieved primarily in Scratch but Javascript and Python also played a part.
@@ -93,6 +104,7 @@
 \cvitemwithcomment{English}{Fluent}{}
 \cvitemwithcomment{French}{Still trying}{}
 
+\newpage
 \section{About me}
 \cvitem{}{
 	I am a problem solver at heart and and seeing suboptimal solutions to problems which have better solutions immediately available easily distract me -- or at worst annoys me.
